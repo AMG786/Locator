@@ -7,8 +7,16 @@
 A community-powered platform to report and recover lost items with advanced mapping capabilities.
 
 
-![Screenshot_1746792049](https://github.com/user-attachments/assets/a4dc4945-0394-43fc-8539-bb82ebe80c5a) ![Screenshot_1746792174](https://github.com/user-attachments/assets/0c4d13f8-97dc-48a0-9029-0a37363b6a9f)
-![Screenshot_1746792322](https://github.com/user-attachments/assets/bd7a8947-2fac-41ab-a346-8a98ab50850a) ![Screenshot_1746792276](https://github.com/user-attachments/assets/bc5e7e1a-80d7-434e-b7d8-e461b7c14c38)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a4dc4945-0394-43fc-8539-bb82ebe80c5a" width="45%" />
+  <img src="https://github.com/user-attachments/assets/0c4d13f8-97dc-48a0-9029-0a37363b6a9f" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bd7a8947-2fac-41ab-a346-8a98ab50850a" width="45%" />
+  <img src="https://github.com/user-attachments/assets/bc5e7e1a-80d7-434e-b7d8-e461b7c14c38" width="45%" />
+</p>
 
 
 
