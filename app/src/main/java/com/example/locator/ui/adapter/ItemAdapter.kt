@@ -2,13 +2,15 @@ package com.example.locator.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.locator.data.room.entities.LostItem
 import com.example.locator.databinding.ItemRowBinding
 
+/**
+Created by Abdul Mueez, 04/24/2025
+ */
 class ItemAdapter(private val onClick: (LostItem) -> Unit) :
     ListAdapter<LostItem, ItemAdapter.ItemViewHolder>(DiffCallback()) {
 

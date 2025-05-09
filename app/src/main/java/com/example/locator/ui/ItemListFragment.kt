@@ -13,6 +13,9 @@ import com.example.locator.databinding.FragmentItemListBinding
 import com.example.locator.ui.adapter.ItemAdapter
 import com.example.locator.ui.vm.LostItemViewModel
 
+/**
+Created by Abdul Mueez, 04/24/2025
+ */
 class ItemListFragment : Fragment() {
     private lateinit var viewModel: LostItemViewModel
     private var _binding: FragmentItemListBinding? = null

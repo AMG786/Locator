@@ -7,7 +7,9 @@ import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
 import com.example.locator.data.room.entities.LostItem
-
+/**
+Created by Abdul Mueez, 04/24/2025
+ */
 @Dao
 interface LostItemDao {
     @Insert

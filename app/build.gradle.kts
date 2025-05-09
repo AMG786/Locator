@@ -50,7 +50,16 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
     implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.5.1")
 
+// Google Maps
+    implementation ("com.google.android.gms:play-services-maps:18.1.0")
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
+    implementation ("com.google.android.libraries.places:places:3.2.0")
+    implementation ("com.google.maps.android:android-maps-utils:2.3.0")
+    implementation ("com.google.android.gms:play-services-tasks:18.0.1")
 
+// For runtime permissions
+    implementation ("androidx.activity:activity-ktx:1.7.0")
+    implementation ("androidx.fragment:fragment-ktx:1.5.7")
 
 // Lifecycle components
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")

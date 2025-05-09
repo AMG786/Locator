@@ -10,6 +10,9 @@ import com.example.locator.R
 import com.example.locator.databinding.FragmentItemDetailBinding
 import com.example.locator.ui.vm.LostItemViewModel
 
+/**
+Created by Abdul Mueez, 04/24/2025
+ */
 class ItemDetailFragment : Fragment() {
     private var _binding: FragmentItemDetailBinding? = null
     private val binding get() = _binding!!

@@ -9,15 +9,8 @@ import android.widget.Button
 import com.example.locator.MainActivity
 import com.example.locator.R
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
 /**
- * A simple [Fragment] subclass.
- * Use the [HomeFragment.newInstance] factory method to
- * create an instance of this fragment.
+Created by Abdul Mueez, 04/24/2025
  */
 class HomeFragment : Fragment() {
 
@@ -30,6 +23,9 @@ class HomeFragment : Fragment() {
 
         view.findViewById<Button>(R.id.create_a_new_advert).setOnClickListener {
             (activity as MainActivity).navigateToFragment(AddItemFragment(), true)
+        }
+        view.findViewById<Button>(R.id.btnShowOnMap).setOnClickListener {
+            (activity as MainActivity).navigateToFragment1(MapFragment())
         }
 
         view.findViewById<Button>(R.id.show_all_lost_and_found_items).setOnClickListener {

@@ -23,7 +23,12 @@ class MainActivity : AppCompatActivity() {
             navigateToFragment(HomeFragment(), false)
         }
     }
-
+    fun navigateToFragment1(fragment: Fragment, addToBackStack: Boolean = true) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragment_container, fragment)
+            .addToBackStack(null)
+            .commit()
+    }
     fun navigateToFragment(fragment: Fragment, addToBackStack: Boolean = true) {
         val transaction = supportFragmentManager.beginTransaction()
             .replace(R.id.fragment_container, fragment)
